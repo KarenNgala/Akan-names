@@ -10,25 +10,66 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- Hero section -->
-        <section class="hero-section">
-            <!-- Navigation bar -->
-            <div class="nav">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="html/about.html">LEARN MORE</a></li>
-                </ul>
-                <img src="images/flag.png" alt="Flag of ghana">
+    <div class="container">
+        <div class="header">
+            <nav>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="html/about.html">AKAN HISTORY</a></li>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="">
+                <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in
+                    which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born. According to Akan tradition, each child is born with a name associated to their soul. The day the child
+                    is born is therefore determined by the soul. The well thought and organized naming system of the Akan’s was initiated by the ancestors. <br>
+                    <a href="https://yen.com.gh/115080-akan-names-meanings.html"> Read more...</a></p>
             </div>
-            <h1>HEro</h1>
-        </section>
+            <form>
+                <label for="year">Century of birth</label>
+                <input type="number" id="year" name="year" placeholder="Example: 1989 has Century = 19">
 
-        <!-- Calculator section -->
-        <section class="main">
-            <h1>Calc</h1>
-        </section>
+                <label for="year">Year of birth</label>
+                <input type="number" id="year" name="year" placeholder="Example: 1989 has year = 89">
 
+                <label for="month">Month</label>
+                <input type="number" id="month" name="month" placeholder="Example: May = 5">
+
+                <label for="date">Date</label>
+                <input type="number" id="date" name="date" placeholder="Example: 16">
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+
+                <input type="button" value="Submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+            </form>
+
+            <h2>Your Akan Name is:</h2>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Your Akan name is:</h4>
+                        </div>
+                        <div class="modal-body">
+                            function getAkanName();
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -36,6 +77,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
