@@ -1,12 +1,26 @@
 body {}
 
+.header {}
+
 form {
     border-radius: 5px;
     background: url(../images/greyscale.jpeg);
     padding: 20px;
     width: 50%;
-    height: 50%;
     margin-left: 25%;
+}
+
+legend {
+    text-align: center;
+    color: lightsalmon;
+}
+
+legend img {
+    float: right;
+    margin-right: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 input[type=number],
@@ -20,7 +34,7 @@ select {
     box-sizing: border-box;
 }
 
-input[type=button] {
+input[type=submit] {
     width: 100%;
     background-color: grey;
     color: white;
@@ -31,6 +45,6 @@ input[type=button] {
     cursor: pointer;
 }
 
-input[type=button]:hover {
+input[type=submit]:hover {
     background-color: black;
 }
