@@ -1,6 +1,26 @@
-body {}
+body {
+    background: url(../images/abstract.jpeg) rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+}
 
 .header {}
+
+.header h3 {
+    padding: 15px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.info p {
+    font-weight: 400;
+}
 
 form {
     border-radius: 5px;
