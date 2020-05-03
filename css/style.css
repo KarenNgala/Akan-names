@@ -10,7 +10,12 @@ body {
     color: black;
 }
 
-.header {}
+.header img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+}
 
 .header h3 {
     padding: 15px;
