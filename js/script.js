@@ -88,4 +88,5 @@ function getAkanName() {
     } else {
         alert("Your Akan name is: " + maleNames[day]);
     }
+    return false;
 }
