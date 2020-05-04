@@ -1,27 +1,25 @@
-Akan Name Generator
-This project features a generator that derives an Akan name corresponding to the day of the week that a user was born.
+##### **Akan Name Generator**
+_This project features a generator that derives an Akan names with regard to the day of the week that a user was born and their gender._
 
-Description
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week a child is born, and on the gender of the child. This name generator takes a user's birthdate and gender information, and derives an Akan name.
+**Description**
+_In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which she/he was born._
+_This name generator takes a user's birthday(year, month and date) and gender information, determines the day of the week on which they were born and derives an Akan name depending on their gender._
 
-Built With
+*Built With*
 HTML
 CSS
 Bootstrap
-Getting Started
-To get a local copy up and running follow these simple steps:
+Javascript
 
-Clone the repo
-git clone https://github.com/trucktar/akan-name-generator.git
-Navigate to the parent folder
-cd akan-name-generator/
-Open the index.html file in a browser of your choice.
-Usage
-If you can quite recall the day of the week you were born, you could use the Akan Names tables to find a corresponding name. Otherwise, enter your birthdate and gender in the form and click Generate to derive your Akan Name.
 
-Contact
-Nyota Mwangi - @trucktar - nyota.benjamin@gmail.com
-Project Link: https://trucktar.github.io/akan-name-generator/
+**Getting Started**
+To get a local copy up of this project, Clone the repo:
+[git clone] (https://github.com/KarenNgala/Akan-names.git)
 
-License
+
+**Contact**
+>Karen Ngala - @ngalalalu@gmail.com
+>Live Link: https://karenngala.github.io/Akan-names/
+
+**License**
 Distributed under the MIT License. See LICENSE for more information.
