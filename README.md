@@ -19,8 +19,7 @@ To get a local copy up of this project, Clone the repo: <br>
 
 
 #### **Contact**
->Karen Ngala - @ngalalalu@gmail.com
-<br>
+>Karen Ngala - @ngalalalu@gmail.com <br>
 >Live Link: https://karenngala.github.io/Akan-names/
 
 #### **License**
