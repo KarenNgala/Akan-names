@@ -30,7 +30,7 @@ body {
 }
 
 form {
-    border-radius: 5px;
+    border-radius: 10px;
     background: url(../images/greyscale.jpeg);
     padding: 20px;
     width: 50%;
