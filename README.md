@@ -16,12 +16,12 @@ Javascript
 
 #### **Project setup**
 To get a local copy up of this project, Clone the repo: <br>
+From the parent folder, **Akan-names**, you can open *index.html* on your browser <br>
 >[git clone] (https://github.com/KarenNgala/Akan-names.git)
-From the parent folder, **Akan-names**, you can open *index.html* on your browser
 
 #### **Contact**
 >Karen Ngala - ngalalalu@gmail.com <br>
 >Live Link: https://karenngala.github.io/Akan-names/
 
-#### **License**
-Distributed under the MIT License. See LICENSE for more information. 
+#### **Copyright & License**
+Distributed under the MIT License. See LICENSE for more information on license and copyright. 
