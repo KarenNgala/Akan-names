@@ -1,22 +1,23 @@
-### **Akan Name Generator**
+### **Akan Name Generator** by Karen Ngala
 _This project features a generator that derives an Akan names with regard to the day of the week that a user was born and their gender._
+
 
 #### **Description**
 _In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which she/he was born._
 <br>
 _This name generator takes a user's birthday(year, month and date) and gender information, determines the day of the week on which they were born and derives an Akan name depending on their gender._
 
-#### *Built With*
+#### **Languages Used**
 HTML <br>
 CSS <br>
 Bootstrap <br>
 Javascript 
 
 
-#### **Getting Started**
+#### **Project setup**
 To get a local copy up of this project, Clone the repo: <br>
-[git clone] (https://github.com/KarenNgala/Akan-names.git)
-
+>[git clone] (https://github.com/KarenNgala/Akan-names.git)
+From the parent folder, **Akan-names**, you can open *index.html* on your browser
 
 #### **Contact**
 >Karen Ngala - ngalalalu@gmail.com <br>
