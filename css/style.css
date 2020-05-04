@@ -1,20 +1,13 @@
 body {
-    background: url(../images/abstract.jpeg) rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../images/white.jpeg) rgba(0, 0, 0, 0.2);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     background-blend-mode: multiply;
-    width: 100%;
+    /* width: 100%; */
     font-family: cursive;
     text-align: center;
     color: black;
-}
-
-.header img {
-    width: 100px;
-    height: 100px;
-    float: left;
-    border-radius: 50%;
 }
 
 .header h3 {
@@ -23,7 +16,16 @@ body {
     font-size: xx-large;
 }
 
+.header img {
+    float: left;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
 .info p {
+    font-size: larger;
     font-weight: 400;
 }
 
@@ -38,14 +40,6 @@ form {
 legend {
     text-align: center;
     color: lightsalmon;
-}
-
-legend img {
-    float: right;
-    margin-right: 0;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
 }
 
 input[type=number],
