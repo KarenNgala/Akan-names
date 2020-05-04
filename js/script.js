@@ -1,7 +1,8 @@
-var yy = prompt("Enter year");
-var mm = prompt("Enter month");
-var dd = prompt("Enter date");
-var gender = prompt("Enter gender");
+var yy = document.myform.year.value;
+var mm = document.myform.month.value;
+var dd = document.myform.date.value;
+var gender = document.myform.gender.value;
+
 // months are zero indexed so May is 4, not 5
 function getDay(y, m, d, g) {
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -13,4 +14,7 @@ function getDay(y, m, d, g) {
         return d && maleNames[d.getDay()];
     }
 }
-alert("You Akan name is:  " + getDay(yy, mm, dd, gender));
+
+function displayName() {
+    alert("You Akan name is:  " + getDay(yy, mm, dd, gender));
+}
