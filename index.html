@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="main">
-            <form name="myform" onsubmit="displayName()">
+            <form id="form" name="form" onsubmit="return getDay()">
                 <legend>Fill in to generate your Akan name:
                     <hr>
                 </legend>
@@ -38,8 +38,8 @@
                 <label for="gender ">Gender</label>
                 <select id="gender " name="gender " required>
                     <option value="">Gender</option>
-                    <option value="female ">Female</option>
-                    <option value="male ">Male</option>
+                    <option value="Female ">Female</option>
+                    <option value="Male ">Male</option>
                 </select>
 
                 <input type="submit" value="Submit">
