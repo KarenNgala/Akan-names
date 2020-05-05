@@ -14,14 +14,14 @@ Bootstrap <br>
 Javascript 
 
 #### **BDD**
-**Write code to handle** <br>
-*Wrong input entered* <br>
-*No data entered* <br>
-*Correct data entered* <br>
-**Sample input**
-*1986* *8* *16* *Female* <br>
-**Expected Output**
-*Correct Akan name to match day of the week. Example Ama - Female born on a Saturday*
+*Write code to handle* <br>
+Wrong input entered <br>
+No data entered <br>
+Correct data entered <br>
+*Sample input* <br>
+1986    8   16  Female <br>
+*Expected Output* <br>
+Correct Akan name to match day of the week. Example Ama - Female born on a Saturday
 
 #### **Project setup & collaboration**
 To get a local copy up of this project, Clone the repo: <br>
