@@ -13,10 +13,20 @@ CSS <br>
 Bootstrap <br>
 Javascript 
 
+#### **BDD**
+**Write code to handle** <br>
+*Wrong input entered* <br>
+*No data entered* <br>
+*Correct data entered* <br>
+**Sample input**
+*1986* *8* *16* *Female* <br>
+**Expected Output**
+*Correct Akan name to match day of the week. Example Ama - Female born on a Saturday*
 
-#### **Project setup**
+#### **Project setup & collaboration**
 To get a local copy up of this project, Clone the repo: <br>
 From the parent folder, **Akan-names**, you can open *index.html* on your browser <br>
+Collaborate on this project by forking this repository to your github, clone it and create a new branch to make changes on, then push the changes to your remote repository <br>
 >[git clone] (https://github.com/KarenNgala/Akan-names.git)
 
 #### **Contact**
