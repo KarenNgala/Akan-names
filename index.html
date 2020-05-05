@@ -17,36 +17,85 @@
             <h3>Akan Name Generator</h3>
             <div class="info">
                 <p>In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which she/he was born.
-                    <br> Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana: <br>
+                    <br> Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana:
+                    <br> You can also view your name or day of birth from the table below. <br>
                 </p>
             </div>
         </div>
         <div class="main">
-            <form id="form" name="form" onsubmit="return getDay()">
-                <legend>Fill in to generate your Akan name:
-                    <hr>
-                </legend>
-                <label for="year ">Year of birth</label>
-                <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1989">
+            <div class="row">
+                <div class="col-md-3">
+                    <br>
+                    <table class="tg">
+                        <tr>
+                            <th class="tg-baqh">Day of the Week</th>
+                            <th class="tg-0lax">Female Name</th>
+                            <th class="tg-0lax">Male Name</th>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">SUNDAY</td>
+                            <td class="tg-0lax">Akosua</td>
+                            <td class="tg-0lax">Kwasi</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">MONDAY</td>
+                            <td class="tg-0lax">Adwoa</td>
+                            <td class="tg-0lax">Kudwo</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">TUESDAY</td>
+                            <td class="tg-0lax">Abenaa</td>
+                            <td class="tg-0lax">Kwabena</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">WEDNESDAY</td>
+                            <td class="tg-0lax">Akua</td>
+                            <td class="tg-0lax">Kwaku</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">THURSDAY</td>
+                            <td class="tg-0lax">Yaa</td>
+                            <td class="tg-0lax">Yaw</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">FRIDAY</td>
+                            <td class="tg-0lax">Afua</td>
+                            <td class="tg-0lax">Kofi</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">SATURDAY</td>
+                            <td class="tg-0lax">Ama</td>
+                            <td class="tg-0lax">Kwame</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-8">
+                    <form id="form" name="form" onsubmit="return getDay()">
+                        <legend>Fill in to generate your Akan name:
+                            <hr>
+                        </legend>
+                        <label for="year ">Year of birth</label>
+                        <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1989">
 
-                <label for="month ">Month</label>
-                <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, May=5">
+                        <label for="month ">Month</label>
+                        <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, May=5">
 
-                <label for="date ">Date</label>
-                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
+                        <label for="date ">Date</label>
+                        <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
 
-                <label for="gender ">Gender</label>
-                <select id="gender " name="gender " required>
-                    <option value="">Gender</option>
-                    <option value="Female ">Female</option>
-                    <option value="Male ">Male</option>
-                </select>
+                        <label for="gender ">Gender</label>
+                        <select id="gender " name="gender " required>
+                            <option value="">Gender</option>
+                            <option value="Female ">Female</option>
+                            <option value="Male ">Male</option>
+                        </select>
 
-                <input type="submit" value="Submit">
-            </form>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-
     <!-- Javascript -->
     <script src="js/script.js"></script>
 </body>
