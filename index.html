@@ -85,12 +85,18 @@
                         <label for="date ">Date</label>
                         <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
 
-                        <label for="gender ">Gender</label>
-                        <select id="gender " name="gender " required>
-                            <option value="">Gender</option>
-                            <option value="Female">Female</option>
-                            <option value="Male">Male</option>
-                        </select>
+                        <div class="radio">
+                            <label>
+                              <input type="radio" name="gender" value="Female" checked>
+                              Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                              <input type="radio" name="gender" value="Male">
+                              Male
+                            </label>
+                        </div>
 
                         <input type="submit" value="Submit">
                     </form>

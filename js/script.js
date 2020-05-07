@@ -17,7 +17,7 @@ $(document).ready(function() {
         var y = parseInt($("#year").val());
         var m = parseInt($("#month").val());
         var d = parseInt($("#date").val());
-        var g = toString($("#gender").val());
+        var g = $("input:radio[name=gender]:checked").val();
         var result = akan(y, m, d, g);
         alert("Your akan name is: " + result);
     });
