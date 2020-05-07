@@ -1,21 +1,24 @@
-var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-
-var yy = parseInt(document.getElementById("year").value);
-var mm = parseInt(document.getElementById("month").value);
-var dd = parseInt(document.getElementById("date").value);
-var gender = document.form.gender.value;
-
-// months are zero indexed so May is 4, not 5
-function getDay() {
-    var day = new Date(yy, --mm, dd);
-    var d = day.getDay();
-
-    var akan = "";
-    if (gender === 'Female') {
-        akan = femaleNames[d];
+// Business (or back-end) logic:
+var akan = function(y, m, d, g) {
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var maleNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var d = new Date(y, --m, d);
+    if (g === "Female") {
+        return d && femaleNames[d.getDay()];
     } else {
-        akan = maleNames[d];
+        return d && maleNames[d.getDay()];
     }
-    alert("Your Akan name is: " + akan);
 }
+
+// User interface (or front-end) logic:
+$(document).ready(function() {
+    $("form#form").submit(function(event) {
+        event.preventDefault();
+        var y = parseInt($("#year").val());
+        var m = parseInt($("#month").val());
+        var d = parseInt($("#date").val());
+        var g = toString($("#gender").val());
+        var result = akan(y, m, d, g);
+        alert("Your akan name is: " + result);
+    });
+});
